@@ -1,52 +1,36 @@
-@charset "UTF-8";
+@charset "utf-8";
 
-#primeiro{
-  background-image: linear-gradient(to left,#D0D8DB,#B6D0F2,#B0C2DA,#EFEFEF,#A5ACB4);
-  font-family: Arial, Helvetica, sans-serif; 
+*{
+  height: auto;
+  width: auto;
+}
+
+@font-face {
+  font-family: "CloisterBlack";
+  src: url(Fonts/CloisterBlack.ttf) format("opentype");
+}
+
+
+header{
+  height: 60px ;
+  width: auto ;
+  padding: 10px ;
+  font-size: 40px ;
+  font-family: "UnfinishedScreamRegular";
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.14);
+  color: #ffff;
+}
+
+article{
   font-size: 15px;
-  font-style: initial;
-  text-align: center;
-  height:700px;
-  width: 500px;
-  padding-top: 1px;       
-  padding-bottom: 30px;
-  border-color: black;
-  border-radius: 10px;
-  border-width: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 600px;
+  height: 1000px;
   margin: auto;
-
-
-} 
-
-
-
-
-
-
-
-.alfa{ 
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  
+  border-style: solid ;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.188);
+  line-height: 30px;
 }
-.omega{
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: right;
-  display: inline-block;
-}
-
-
-
-
-
-
-    
-
-   /* Fonte style é usado para estilizar a sua letra.
-   /* Fonte weight é usado controlar a largura da letra, caso voce queira tornar ela fina ou grossa.
-   /* Fonte size é usado para controlar o tamanho da letra.
-   /*  Fonte family é usada para ter multiplas escolhas caso o navegador não seja  compatível com determinada fonte.
-
- 
-
-    
