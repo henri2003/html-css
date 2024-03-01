@@ -1,8 +1,7 @@
 @charset "utf-8";
-
 *{
-  height: auto;
-  width: auto;
+ padding: 0px;
+ margin: 0px;
 }
 
 @font-face {
@@ -12,8 +11,8 @@
 
 
 header{
-  height: 60px ;
-  width: auto ;
+  width: auto;
+  height: 50px ; 
   padding: 10px ;
   font-size: 40px ;
   font-family: "UnfinishedScreamRegular";
@@ -25,12 +24,26 @@ header{
 article{
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
-  width: 600px;
-  height: 1000px;
+  line-height: 25px;
+  text-indent: 0px;
+  text-align: ;
+  padding: 15px;
+}
+
+main{
+  width: auto;
+  height: 800px;
   margin: auto;
-  text-align: center;
   border-style: solid ;
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.188);
-  line-height: 30px;
+  min-width: 300px;
+  max-width: 900px;
 }
+
+footer{
+  background-color: rgba(0, 0, 0, 0.14);
+  text-align: center;
+  margin: auto;
+}
+
