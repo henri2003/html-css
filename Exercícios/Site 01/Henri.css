@@ -14,21 +14,31 @@ header{
   width: auto;
   height: 50px ; 
   padding: 10px ;
-  font-size: 40px ;
+  font-size: 20px ;
   font-family: "UnfinishedScreamRegular";
   text-align: center;
   background-color: rgba(0, 0, 0, 0.14);
   color: #ffff;
 }
 
-article{
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 25px;
-  text-indent: 0px;
-  text-align: ;
-  padding: 15px;
+nav{
+  display:flexbox ;
+  margin-top: -10px;
+  margin-left: -62em;
 }
+
+.link{
+ font-size: 15px;
+ padding: 1px;
+ margin-left: 5px;
+ box-shadow: 5px 2px 5px #949191 ;
+ text-decoration: none;
+ background-color: rgba(0, 0, 0, 0.14);
+ color:#fff;
+ 
+}
+
+
 
 main{
   width: auto;
@@ -38,7 +48,20 @@ main{
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.188);
   min-width: 300px;
-  max-width: 900px;
+  max-width: 600px;
+}
+
+article{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+  text-indent: 0px;
+  text-align:center ;
+  padding: 15px;
+}
+article p {
+ padding: 10px;
+
 }
 
 footer{
