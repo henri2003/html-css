@@ -79,7 +79,8 @@ article p {
 }
 
 footer{
-  position: relative;
+  width: auto;
+  margin: auto;
   background-color: rgba(0, 0, 0, 0.14);
   text-align: center;
   
