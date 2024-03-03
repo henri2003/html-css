@@ -10,6 +10,12 @@
   src: url(Fonts/CloisterBlack.ttf) format("opentype");
 }
 
+body{
+  max-width: 1550px;
+  width: auto;
+  margin: auto;
+}
+
 
 header{
   
@@ -35,6 +41,7 @@ nav{
   color: #ffffff;
   box-shadow: 2px 5px 2px #5454543e;
 }
+
 .link:hover{
   transition-duration: 2s;
   background-color: #000;
@@ -73,6 +80,6 @@ article p {
 footer{
   background-color: rgba(0, 0, 0, 0.14);
   text-align: center;
-  margin: auto;
+  
 }
 
