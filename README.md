@@ -1,4 +1,4 @@
 # html-css
  Estudo de html e css 
 
-Estou aprendendo a gerenciar o git e github, mas como nada é perfeito, acabei de cometer um erro tremendo.
+Olá pessoal, pra quem não me conhece, eu me chamo Henrique Gois, sou desenvolvedor já algum tempo e quero apresentar para vocês um pouco do meu trabalho que faço com tanta dedicação.

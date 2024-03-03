@@ -2,6 +2,7 @@
 *{
  padding: 0px;
  margin: 0px;
+ 
 }
 
 @font-face {
@@ -11,6 +12,7 @@
 
 
 header{
+  
   width: auto;
   height: 50px ; 
   padding: 10px ;
@@ -22,21 +24,25 @@ header{
 }
 
 nav{
-  display:flexbox ;
-  margin-top: -10px;
-  margin-left: -62em;
+   background-color: rgba(0, 0, 0, 0.14); ;
 }
 
 .link{
- font-size: 15px;
- padding: 1px;
- margin-left: 5px;
- box-shadow: 5px 2px 5px #949191 ;
- text-decoration: none;
- background-color: rgba(0, 0, 0, 0.14);
- color:#fff;
- 
+  position: relative;
+  left: 30px;
+  padding: 0px 15px 0px 15px;
+  text-decoration:none ;
+  color: #ffffff;
+  box-shadow: 2px 5px 2px #5454543e;
 }
+.link:hover{
+  transition-duration: 2s;
+  background-color: #000;
+  
+}
+
+
+
 
 
 
