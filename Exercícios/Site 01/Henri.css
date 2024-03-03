@@ -79,6 +79,7 @@ article p {
 }
 
 footer{
+  position: absolute;
   background-color: rgba(0, 0, 0, 0.14);
   text-align: center;
   
