@@ -60,14 +60,7 @@ a{
 
 
 main{
-  width: auto;
-  height: auto;
-  margin: auto;
-  min-width: 800px;
-  border-style: solid;
-  border-color: rgba(120, 116, 116, 0.104);
-  border-width: 2px;
-  min-width: 400px;
+ margin: auto;
 }
 
 article{
