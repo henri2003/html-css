@@ -4,7 +4,7 @@ h1{
     color: blue;
 }
 
-@media screen and(max-width: 350px) {
+@media screen and (max-width: 350px) {
      
     h1{
         color: black;
