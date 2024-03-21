@@ -80,7 +80,7 @@ a:hover {
 
 section {
 
-    padding-top: 5vh;
+    padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
@@ -109,6 +109,8 @@ section.normal {
 section.imagem {
     background-color: #333232;
     color: #fff;
+    box-shadow: inset 5px 10px 5px rgba(0, 0, 0, 0.355);
+    background-attachment: fixed;
 }
 
 
@@ -118,6 +120,7 @@ section.imagem>p {
     display: inline-block;
     padding: 10px;
     background-color: #1d1d1d2f;
+  
 }
 
 
